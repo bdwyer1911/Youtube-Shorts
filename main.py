@@ -26,9 +26,9 @@ import random
 os.chdir('C:\\Users\\bdwye\\Documents\\Python Scripts\\Youtube Shorts\\TikTok Voice\\tiktok-voice-main')
 
 reddit = praw.Reddit(
-      client_id="aFbS9woaB7luaWxDCgbZaA",
-      client_secret="IE31iG310iyopW7QCVRpZoeNQv1Tsw",
-      password="d6pdk6rt!@#4",
+      client_id="*******"
+      client_secret="********",
+      password="*******",
       user_agent="USERAGENT",
       username="boogiemen",
   )
@@ -36,7 +36,7 @@ reddit = praw.Reddit(
 def save_audio(ID, text, type):
 
   client = ElevenLabs(
-    api_key="de309d56bba6c2436b1df046ad337108", # Defaults to ELEVEN_API_KEY
+    api_key="*******", # Defaults to ELEVEN_API_KEY
   )
 
   audio = client.generate(
